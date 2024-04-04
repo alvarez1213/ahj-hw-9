@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+}
+
+.content {
+    margin: 20px;
+}
+
+.collapse-header {
+    background-color: #fff;
+    border: #F8FAFB solid 5px;
+    border-radius: 5px;
+
+    padding: 15px;
+    max-height: 60%;
+}
+
+.collapse-body {
+    background-color: #F8FAFB;
+    border-radius: 5px;
+    height: 370px;
+}
+
+.collapse-message {
+    border: #E7E7E7 solid 2px;
+    border-radius: 5px;
+    padding: 15px;
+
+    transition: display 2s, opacity 1s;
+}
+
+.hidden {
+    display: none;
+}
+
+.visuallyhidden {
+    opacity: 0;
+}
+
+.copy {
+    font-size: 14px;
+    color: #91989D;
+    cursor: pointer;
+
+    text-align: right;
+    margin-right: 15px;
+}
+
+.btn {
+    background-color: #017BFF;
+    border-color: #017BFF;
+    border-radius: 6px;
+    color: #fff;
+
+    cursor: pointer;
+
+    padding: 10px 15px;
+    margin-bottom: 10px;
+}
+
+.btn:focus {
+    outline: 2px solid #93C7FE;
+}
